@@ -118,7 +118,7 @@ footer a:hover {
         line-height: 1.5;
         letter-spacing: 0.25px;
         margin: 2.5% 0 3%;
-        padding-bottom: 5%;
+        padding: 0 25% 1.5% 25%;
     }
 
     .card {
