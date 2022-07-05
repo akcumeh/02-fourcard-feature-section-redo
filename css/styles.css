@@ -1,0 +1,157 @@
+body {
+    text-align: center;
+    background-color: hsl(0, 0%, 98%);
+    padding: 20% 5% 0;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: hsl(234, 12%, 34%);
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 1.6rem;
+    color: hsl(234, 12%, 34%);
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+p {
+    margin: 5% 2.5%;
+    padding-bottom: 5%;
+    font-size: 0.9rem;
+    letter-spacing: 0.25px;
+    font-weight: 300;
+    color: hsl(229, 6%, 66%);
+}
+
+.supervisor-card {
+    border-top-color: hsl(180, 62%, 55%) !important;
+}
+
+.team-builder-card {
+    border-top-color: hsl(0, 78%, 62%) !important;
+}
+
+.karma-card {
+    border-top-color: hsl(34, 97%, 64%) !important;
+}
+
+.calculator-card {
+    border-top-color: hsl(212, 86%, 64%) !important;
+}
+
+footer {
+    margin-top: 10vw;
+    height: 10vw;
+    color: hsl(234, 12%, 34%);
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(229, 6%, 66%);
+}
+
+footer a:hover {
+    color: hsl(0, 78%, 62%);
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .card {
+        height: 50vw;
+        margin: 5%;
+        padding: 3%;
+        border-top: 5px solid;
+        border-radius: 7.5px;
+        box-shadow: 0px 15px 20px 2.5px hsl(240, 3%, 81%);
+        text-align: left;
+    }
+
+    .card p {
+        padding: 0 5% 5% 0;
+        margin: 0;
+        font-size: 0.75rem;
+        letter-spacing: 0.05;
+        line-height: 1.5;
+    }
+
+    .card-icon {
+        position: absolute;
+        top: 60%;
+        left: 70%;
+        height: 25%;
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        padding: 7% 0 0;
+        text-align: center;
+    }
+
+    .container-fluid {
+        padding: 0 5% 0 5%;
+    }
+
+    h1 {
+        line-height: 1;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+    p {
+        font-size: 1rem;
+        line-height: 1.5;
+        letter-spacing: 0.25px;
+        margin: 2.5% 0 3%;
+        padding-bottom: 5%;
+    }
+
+    .card {
+        text-align: left;
+        height: 15rem !important;
+        width: 90%;
+        margin: 7%;
+        padding: 2.5%;
+        border-top: 4px solid;
+        border-radius: 7.5px;
+        box-shadow: 0px 15px 20px 2.5px hsl(240, 3%, 81%);
+    }
+
+    .card p {
+        padding: 0;
+        margin: 0 0 10%;
+        font-size: 0.8rem;
+    }
+
+    .col-md-4 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .card-icon {
+        position: relative;
+        float: right;
+        top: 10%;
+    }
+
+    footer {
+        margin-top: 5vw;
+        margin-bottom: 1vw;
+        height: max-content;
+    }
+}
